@@ -1,0 +1,23 @@
+.people {
+    margin-top: 5%;
+}
+
+.people img {
+    width: 400px;
+}
+
+
+.people .imgs img {
+    width: 100px;
+    height: auto;
+    margin: 15px;
+}
+
+.peopleFilms {
+    margin-top: 7%;
+}
+
+.peopleFilms h4 {
+    margin-left: 6%;
+    font-weight: bold;
+}

@@ -1,0 +1,18 @@
+.nav {
+    background-color: #060D17;
+
+}
+
+.nav a {
+    color: white !important
+}
+
+.nav a:hover {
+    color: white
+}
+
+.modal-body {
+    background-color: rgb(19, 19, 19);
+    padding: auto;
+    text-align: center;
+}

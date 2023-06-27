@@ -1,0 +1,8 @@
+.watchlistB button {
+    background-color: rgb(227, 225, 225);
+    width: 150px;
+    border: 1px solid white;
+    margin: 5px;
+    color: black;
+    margin-left: 25%;
+}

@@ -1,0 +1,81 @@
+header {
+    width: 200vh;
+    min-height: 400px;
+    margin-bottom: 4%;
+}
+
+header .bg {
+    height: 400px;
+    background-size: cover;
+
+}
+
+header .form-control {
+    width: 80%;
+    margin: auto;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom: none;
+    background-color: #10161D;
+    border-color: #10161D;
+    color: white;
+}
+
+header .form-control::placeholder {
+    color: white;
+}
+
+header .form-control:focus {
+    width: 80%;
+    margin: auto;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom: none;
+    background-color: #10161D;
+    border: none;
+    border-color: #10161D;
+    color: white;
+    box-shadow: none;
+}
+
+header .results {
+    background-color: #10161D;
+    width: 80%;
+    margin: auto;
+    min-height: 400px;
+
+}
+
+header .results h6 {
+    padding-top: 10%;
+    padding-left: 10%;
+    color: #B0B4C3;
+
+}
+
+.eachFilmResult {
+    margin-bottom: 6%;
+    cursor: pointer;
+}
+
+.eachFilmResult:hover {
+    transform: scale(1.1);
+
+}
+
+header .button {
+    background-color: grey;
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 5%;
+    width: 250px;
+    background-color: red;
+    border: 2px solid white;
+    transition: 500ms;
+}
+
+header .button:hover {
+    border: 2px solid white;
+    background-color: red;
+    transform: scale(1.3);
+}

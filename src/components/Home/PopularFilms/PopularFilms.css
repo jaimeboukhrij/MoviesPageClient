@@ -1,0 +1,73 @@
+.popularFilms img {
+    width: 20px;
+    margin-top: -15px;
+    margin-left: 0px
+}
+
+.popularFilms h4 {
+    margin-bottom: 1%;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 6%;
+    word-spacing: 2px;
+}
+
+.popularFilms span {
+    color: rgb(149, 147, 147);
+}
+
+.popularFilms {
+    margin-bottom: 5%;
+}
+
+.carousel {
+    margin-right: 0%;
+    height: 380px;
+    width: 100%;
+}
+
+.carousel-inner {
+    height: 360px;
+    padding: auto;
+    padding-left: 5%;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+
+
+.carousel-item {
+    position: static
+}
+
+.carousel-control-prev {
+    justify-content: left;
+    width: 2%;
+}
+
+.carousel-control-next {
+    justify-content: right;
+    width: 2%;
+}
+
+.CarrouselEachFilm {
+    margin: 15px;
+    transition: 500ms;
+}
+
+.CarrouselEachFilm:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.CarrouselEachFilm img {
+    width: 100%;
+}
+
+.carousel-caption {
+    position: static;
+    height: 400px;
+    padding: auto;
+}

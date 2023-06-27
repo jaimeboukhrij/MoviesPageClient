@@ -1,0 +1,201 @@
+.detailPage header {
+    height: 70vh;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.detailPage section {
+    padding: 30px 30px;
+    z-index: 2;
+    background-color: black;
+    min-height: 400px;
+    width: 150vh;
+    margin: 0 auto;
+    position: relative;
+    bottom: 280px;
+    border-radius: 40px;
+}
+
+
+.bodyDetails img {
+    width: 350px;
+}
+
+.bodyDetails .imgFooter {
+    background-color: #1C252F;
+    height: 80px;
+    width: 104%;
+    position: relative;
+    bottom: 80px;
+    padding-top: 7%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.bodyDetails .imgFooter img {
+    width: 20px;
+    margin-bottom: 3px;
+}
+
+.bodyDetails .imgFooter p {
+    font-size: 0.9em;
+}
+
+.bodyDetails h4 {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.bodyDetails span {
+    font-weight: normal;
+    font-size: .6em;
+    color: rgb(187, 181, 181);
+}
+
+.bodyDetails h6 {
+    color: grey;
+}
+
+.bodyDetails .topFilmDetails {
+    height: 50px;
+}
+
+.bodyDetails .topFilmDetails p {
+    font-size: 0.8em;
+}
+
+
+.platamors {
+    margin-top: 8%;
+}
+
+.platamors h5 {
+    color: #FBC500;
+    font-weight: bold;
+}
+
+.eachPlatform {
+    border: 1px solid #FBC500;
+    border-radius: 10px;
+    height: 120px;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.eachPlatform img {
+    width: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.eachPlatform P {
+    font-size: 0.7em;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.eachPlatform span {
+    font-size: 1em;
+}
+
+.videos {
+    margin-top: 8%;
+}
+
+.videos h5 {
+    color: grey
+}
+
+.imgFooter .tag {
+    cursor: pointer;
+    text-align: center;
+    transition: 400ms;
+}
+
+.imgFooter .tag:hover {
+    transform: scale(1.2);
+}
+
+
+.detailsFilmCast {
+    margin-top: 8%;
+
+}
+
+.detailsFilmCast .eachCast {
+    transition: 500ms;
+
+}
+
+.detailsFilmCast .eachCast:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.detailsFilmCast h5 {
+    color: grey;
+    margin-bottom: 3%;
+}
+
+.detailsFilmCast .eachCast img {
+    width: 120px;
+}
+
+.detailsFilmCast .eachCast h5 {
+    font-weight: 600;
+    color: white;
+    margin-top: 7%;
+}
+
+.detailsFilmCast .eachCast p {
+    color: grey;
+}
+
+.films {
+    margin-top: 6%;
+}
+
+.films .eachFilm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5%;
+    transition: 500ms;
+}
+
+.films .eachFilm:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.films .eachFilm img {
+    width: 200px;
+    margin-bottom: 3%;
+}
+
+.films .eachFilm h6 {
+    text-align: left;
+    width: 70%;
+}
+
+.films .genres {
+    margin-top: 10%
+}
+
+.films .eachGenre {
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 2px 3px;
+    font-size: 0.8em;
+    text-align: center;
+    transition: 300ms;
+}
+
+.films .eachGenre:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: aqua;
+}
